@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // fungsi deklaratif
+      // 1
+      function sapa(nama) {
+        console.log(" halo " + nama + " selamat datang ");
+      }
+      sapa("mas dani");
+
+      //2
+      function persegi(lbr, tngi) {
+        return lbr * tngi;
+      }
+      console.log(persegi(3, 6));
+
+      //3
+
+      function biodata(nama, alamat, umur) {
+        console.log(
+          " halo nama saya " +
+            nama +
+            " saya tinggal di " +
+            alamat +
+            " umur saya" +
+            umur
+        );
+      }
+      biodata("yamin", "padang", "20");
+
+      //4
+
+      function cek(angka) {
+        if (angka % 2 === 0) {
+          return "Genap";
+        } else {
+          return "Ganjil";
+        }
+      }
+      console.log(cek(5));
+      console.log(cek(6));
+
+      //5
+
+      // fungsi ekspresi
+      //1
+     let segitiga = function (als, tngi) {
+        return als * tngi;
+      }
+      console.log(segitiga(2, 6));
+
+      //2
+      function lingkaran(p, dm) {
+        return p * dm;
+      }
+      console.log(lingkaran(3, 5));
+
+      //3
+      let angka = 2;
+      function jumlah(angka2) {
+        return angka + angka2;
+      }
+      console.log(jumlah(5));
+
+      //4
+      
+    </script>
+  </body>
+</html>

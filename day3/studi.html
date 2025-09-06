@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const angka = 11;
+      console.log(angka % 2);
+      if (angka % 2 === 0) {
+        console.log("angkaGenap");
+      } else {
+        console.log("angka ganjil");
+      }
+
+      let umur = 12;
+      let hasil = umur >= 18 ? "silahkan pesan film anda" : "balik lu bocil";
+      console.log(hasil);
+
+      let suhu = 20;
+
+      if (suhu <= 20 && suhu > 18) {
+        console.log("cuaca normal");
+      } else if (suhu >= 19 && suhu < 28) {
+        console.log("cuaca panas");
+      } else if (suhu < 18) {
+        console.log("dingin cuuk");
+      } else {
+        console.log("panas njiiir");
+      }
+
+      const password = prompt("masukkan password anda");
+      if (password == "nimay") {
+        alert("password anda benar");
+      } else {
+        alert("hayoo lupa password yaa");
+      }
+
+      let nilai = 75;
+
+      if (nilai >= 75) {
+        console.log("selamat anda lulus");
+      } else {
+        console.log("tolol bet lu yaa");
+      }
+    </script>
+  </body>
+</html>

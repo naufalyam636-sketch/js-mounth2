@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     /* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+/* JUDUL */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #222;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* LIST FRAMEWORK */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+li {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover efek */
+li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* DETAILS */
+details {
+  margin-top: 12px;
+  padding: 12px;
+  border-left: 4px solid #4a90e2;
+  background: #f0f4ff;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #444;
+}
+ 
+    </style>
+  </head>
+  <body>
+    <h1>3 framework populer javascript</h1>
+    <p>
+      <ul><li>
+        reac.js 
+        <details>React adalah library (sering disebut framework juga) yang dibuat oleh Facebook untuk membangun antarmuka pengguna (UI).</details>
+      </li></ul>
+    </p>
+    <p>
+      <ul>
+        <li>angular
+        <details>Angular adalah framework full-featured buatan Google untuk membangun aplikasi web modern.</details></li>
+      </ul>
+    </p>
+    <p>
+      <ul><li>
+        vue.js 
+        <details>Vue adalah framework progresif yang ringan dan fleksibel untuk membangun antarmuka pengguna.</details>
+      </li></ul>
+    </p>
+    <button onclick="sayhelo()">silahkan klik</button>
+    <script>
+      function sayhelo() {
+        alert("naufal yamin");
+      }
+    </script>
+  </body>
+</html>
